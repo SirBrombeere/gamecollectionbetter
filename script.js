@@ -1,6 +1,6 @@
 // Liste der Spiele
 const games = [
-    { name: "Game 1", file: "games/game1.html" },
+    { name: "Gamecollection", file: "gamecollection.html" },
     { name: "Game 2", file: "games/game2.html" },
     { name: "Game 3", file: "games/game3.html" }
 ];
