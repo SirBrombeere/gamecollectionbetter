@@ -1,8 +1,9 @@
 // Liste der Spiele
 const games = [
     { name: "Gamecollection", file: "gamecollection.html" },
-    { name: "Game 2", file: "games/game2.html" },
-    { name: "Game 3", file: "games/game3.html" }
+    { name: "cityjumper", file: "cityjumper.html" },
+    { name: "mariokart", file: "mariokart.html" },
+    { name: "stickmanhook", file: "stickmanhook.html" }
 ];
 
 const gamesList = document.getElementById('games-list');
