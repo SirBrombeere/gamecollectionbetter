@@ -2,23 +2,16 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Game Collection</title>
+    <title>Gravity Particles</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="launcher">
-        <h1>Game Collection</h1>
-        <div class="games" id="games-list">
-            <!-- Spiele-Buttons werden dynamisch erzeugt -->
-        </div>
-    </div>
+    <canvas id="c"></canvas>
+    <div class="info">Click to add gravity point.</div>
 
-    <div id="game-container" style="display:none;">
-        <iframe id="game-frame" src="" frameborder="0"></iframe>
-    </div>
-
-    <button id="backBtn" style="display:none;">Zurück zur Sammlung</button>
-
+    <!-- dat.GUI Bibliothek -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+    <!-- Eigenes Script -->
     <script src="script.js"></script>
 </body>
 </html>
