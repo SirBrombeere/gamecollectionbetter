@@ -1,4 +1,4 @@
-// Liste der Spiele
+// Hier alle Spiele auflisten
 const games = [
     { name: "cityjumper", file: "cityjumper.html" },
     { name: "gamecollection", file: "gamecollection.html" },
