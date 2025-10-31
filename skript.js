@@ -2,8 +2,7 @@
 const games = [
     { name: "cityjumper", file: "cityjumper.html" },
     { name: "gamecollection", file: "gamecollection.html" },
-    { name: "mariokart", file: "mariokart.html" },
-    { name: "stickmanhook", file: "stickmanhook.html" }
+    { name: "mariokart", file: "mariokart.html" }
 ];
 
 const gamesList = document.getElementById('games-list');
