@@ -22,7 +22,7 @@ games.forEach(game => {
 });
 
 // Spiel starten
-function launchGame (file) {
+function launchGame(file) {
     launcher.style.display = 'none';
     gameContainer.style.display = 'block';
     backBtn.style.display = 'block';
